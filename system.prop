@@ -61,6 +61,8 @@ dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,com.google.android.apps.cameralite,com.google.android.GoogleCamera.Go
+
 # USB MTP WHQL
 ro.sys.usb.mtp.whql.enable=0
 
