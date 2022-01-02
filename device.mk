@@ -354,7 +354,8 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_vtservice
+    libshim_vtservice \
+    libshim_showlogo
 
 # Tethering
 PRODUCT_PACKAGES += \

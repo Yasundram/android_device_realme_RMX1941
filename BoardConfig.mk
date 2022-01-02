@@ -132,5 +132,8 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # SeLinux
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Symbols
+TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+
 # System Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
