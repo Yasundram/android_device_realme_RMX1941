@@ -32,12 +32,6 @@ dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 iorapd.readahead.enable=true
 
-# Camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera,com.google.android.apps.cameralite,com.google.android.GoogleCamera.Go
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.pixelexperience.faceunlock,com.google.android.apps.cameralite
-vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
-persist.vendor.camera.expose.aux=1
-
 # USB
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
