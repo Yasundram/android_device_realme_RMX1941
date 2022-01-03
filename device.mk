@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
 
 # Dependencies of kpoc_charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    libsuspend \
+    android.hardware.health@2.0
 
 # Disable Configstore
 PRODUCT_PACKAGES += \
